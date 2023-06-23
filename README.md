@@ -6,4 +6,6 @@
 
 [คลิกเพื่อดูรายละเอียดของแลป](https://o365cmu-my.sharepoint.com/:b:/g/personal/chayanin_s_cmu_ac_th1/Ea0LeRxESQhFiGTZ4j5p0y0BhZHQ2h_dICj7xA9_t1NPzQ?e=sUkdBA)
 
+
+                it work in vs code . But i dont know why it show error 404 when i change the page.
 <strong>GITHUB PAGE URL :https://cpe207.github.io/lab02-Waphyoo/ </strong>
