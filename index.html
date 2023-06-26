@@ -4,31 +4,73 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="all-font">
-    <center>
-      <h3>My portfolio</h3>
-      <a href="index.html">Homepage |</a>
+    <div class="border d-flex my-1 gap-2 justify-content-center btn-dark p-2">
+      <a href="index.html">Home |</a>
       <a href="contact.html">Contact |</a>
+      <a href="gallery.html">Gallery |</a>
       <a href="exprerience.html">Exprerience</a>
+    </div>
 
-      <p>My name is non. hi nice to meet you all.<br />I am 20 years old.</p>
-
-      <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5uX6OFAY6yGyLf0vEbR5iRYPblHgRfUyOGw&usqp=CAU"
-        width="200px"
-      />
-
-      <h3>Skills</h3>
-      <div class="skill-container">
-        <p>Programing</p>
-        <p>I can code!!</p>
+    <div class="d-flex gap-3 my-4 justify-content-center">
+      <div>
+        <img
+          src="image/FB_IMG_1687421613460.jpg"
+          width="200"
+          height="200"
+          class="rounded-circle"
+        />
       </div>
-      <div class="skill-container">
-        <p>GGEZ</p>
-        <p>I can boil an egg!!!</p>
+      <div>
+        <div class="display-5">Watunyoo Phanapaisarnsakul</div>
+        <p>My name is non. hi nice to meet you all.<br />I am 20 years old.</p>
       </div>
-    </center>
+    </div>
+
+    <h3>Skills</h3>
+    <div style="max-width: 700px" class="mx-auto">
+      <div
+        class="border btn-dark d-flex gap-3 rounded-3 p-3"
+        style="max-width: 700px"
+      >
+        <div>
+          <img
+            src="image/code-python-visuel-site-web-1.jpg"
+            alt
+            width="200"
+            height="150"
+          />
+        </div>
+        <div>
+          <h4>Programing</h4>
+          <p>I can code C++,Html</p>
+        </div>
+      </div>
+      <div
+        class="border btn-dark d-flex gap-3 rounded-3 p-3"
+        style="max-width: 700px"
+      >
+        <div>
+          <img src="image/egg.png" alt width="200" height="150" />
+        </div>
+        <div>
+          <h4>Cooking</h4>
+          <p>I can boil an egg</p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
